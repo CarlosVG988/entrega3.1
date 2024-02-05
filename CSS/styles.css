@@ -63,6 +63,16 @@ header{
     border: 500px 500px 1000px 500px;
 }
 
+.container3{
+    background-color: var(--clr-primary-400) ;
+    padding-left:1.25em ;
+    padding-right: 1.25em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    height: 80%;
+    border: 500px 500px 1000px 500px;
+}
+
 
 .color-white{
     color:white;
@@ -82,8 +92,24 @@ header{
 
 .image{
     max-inline-size: 100%;
-    padding: 5% 5% 5% 5%;
-   
+    padding: 5% 5% 5% 5%;   
+}
+
+.image-social{
+    display: flex;
+    flex-wrap: row;
+    justify-content: center;
+    max-inline-size: 100%;
+    padding: 5% 5% 5% 5%;   
+}
+
+.image-social-icons{
+    justify-content: space-evenly;
+}
+
+.map{
+    max-inline-size: 100%;
+    padding: 5% 5% 5% 5%;    
 }
 
 @media screen and (max-width: 300px) {
