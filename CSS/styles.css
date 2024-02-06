@@ -1,27 +1,25 @@
-/* Inicio Estilos Header */
-.color-claro,
-header {
+header .color-claro {
   background-color: #F3EEF9;
 }
-
-#navbarNav {
+header #navbarNav {
   background-color: #F3EEF9;
 }
-
-.text-align {
+header #navbarNav .nav-link:hover {
+  transform: scale(1.15);
+  transition: 0.34s;
+}
+header .text-align {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
-.logo {
+header .logo {
   width: 5rem;
   border-radius: 50%;
 }
 
-/*  Fin Estilos Header */
 /* Inicio Estilos Main */
-.container1 {
+main .container1 {
   background-color: #824936;
   padding-left: 1.25em;
   padding-right: 1.25em;
@@ -30,8 +28,7 @@ header {
   height: 80%;
   border: 500px 500px 1000px 500px;
 }
-
-.container2 {
+main .container2 {
   background-color: #824936;
   padding-left: 1.25em;
   padding-right: 1.25em;
@@ -40,8 +37,7 @@ header {
   height: 80%;
   border: 500px 500px 1000px 500px;
 }
-
-.container3 {
+main .container3 {
   background-color: #824936;
   padding-left: 1.25em;
   padding-right: 1.25em;
@@ -50,61 +46,52 @@ header {
   height: 80%;
   border: 500px 500px 1000px 500px;
 }
-
-.color-white {
+main .color-white {
   color: white;
 }
-
-.split {
+main .split {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
   gap: 20px;
 }
-
-.container2 {
+main .container2 {
   background-color: #222C2A;
 }
-
-.image {
+main .image {
   max-inline-size: 100%;
   padding: 5% 5% 5% 5%;
 }
-
-.image-social {
+main .image-social {
   display: flex;
   flex-wrap: row;
   justify-content: center;
   max-inline-size: 100%;
   padding: 5% 5% 5% 5%;
 }
-
-.image-social-icons {
+main .image-social-icons {
   justify-content: space-evenly;
 }
-
-.map {
+main .map {
   max-inline-size: 100%;
   padding: 5% 5% 5% 5%;
 }
-
 @media screen and (max-width: 300px) {
-  .split {
+  main .split {
     display: flex;
     flex-direction: column;
   }
 }
+
 /*  Fin Estilos Main */
 /*  Inicio Estilos Footer */
-.split-footer {
+/*  Fin Estilos Footer */
+footer .split-footer {
   display: flex;
   justify-content: space-evenly;
 }
-
-.image-footer {
+footer .image-footer {
   width: 100px;
   height: auto;
 }
-
-/*  Fin Estilos Footer */
 
 /*# sourceMappingURL=styles.css.map */

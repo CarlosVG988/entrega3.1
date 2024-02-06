@@ -1,14 +1,21 @@
 /*  Inicio Estilos Footer */
 
-.split-footer{
-    display: flex;
-    justify-content: space-evenly;
-}
 
-.image-footer{
-    width: 100px;
-    height: auto;
-
-}
 
 /*  Fin Estilos Footer */
+
+footer{
+
+    .split-footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .image-footer{
+        width: 100px;
+        height: auto;
+    
+    }
+
+
+}
