@@ -2,11 +2,11 @@
 
 header {
     .color-claro {
-        background-color: #F3EEF9
+        background-color: $colorclaro;
     }
 
     #navbarNav {
-        background-color: #F3EEF9;
+        background-color: $colorclaro;
 
         .nav-link {
             &:hover {
