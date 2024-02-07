@@ -4,39 +4,23 @@
 main {
     .container1 {
         background-color: $colorcafe;
-        padding-left: 1.25em;
-        padding-right: 1.25em;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        height: 80%;
-        border: 500px 500px 1000px 500px;
+         @extend %config-container;
     }
 
     .container2 {
         background-color: $colorcafe;
-        padding-left: 1.25em;
-        padding-right: 1.25em;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        height: 80%;
-        border: 500px 500px 1000px 500px;
+        @extend %config-container;
     }
 
     .container3 {
         background-color: $colorcafe;
-        padding-left: 1.25em;
-        padding-right: 1.25em;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        height: 80%;
-        border: 500px 500px 1000px 500px;
+        @extend %config-container;
     }
 
 
     .color-white {
         color: white;
     }
-
 
 
     .split {
