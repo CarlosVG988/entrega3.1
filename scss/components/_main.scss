@@ -19,14 +19,16 @@ main {
 
 
     .color-white {
-        color: white;
+         color:map-get($propiedad,color_elegido);
+        
     }
 
 
     .split {
         display: grid;
         grid-template-columns: repeat(2, 2fr);
-        gap: 20px;
+         gap:map-get($propiedad , separacion );
+        // gap: 20px;
     }
 
     .container2 {

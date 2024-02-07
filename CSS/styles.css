@@ -1,3 +1,12 @@
+main .container3, main .container2, main .container1 {
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  height: 80%;
+  border: 500px 500px 1000px 500px;
+}
+
 header .color-claro {
   background-color: #F3EEF9;
 }
@@ -21,30 +30,12 @@ header .logo {
 /* Inicio Estilos Main */
 main .container1 {
   background-color: #824936;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  height: 80%;
-  border: 500px 500px 1000px 500px;
 }
 main .container2 {
   background-color: #824936;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  height: 80%;
-  border: 500px 500px 1000px 500px;
 }
 main .container3 {
   background-color: #824936;
-  padding-left: 1.25em;
-  padding-right: 1.25em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  height: 80%;
-  border: 500px 500px 1000px 500px;
 }
 main .color-white {
   color: white;
