@@ -57,8 +57,10 @@ main {
 
     @media screen and (max-width: 300px) {
         .split {
-            display: flex;
-            flex-direction: column;
+            @include flx-grd(flex,column);
+            
+            // display: flex;
+            // flex-direction: column;
         }
     }
 

@@ -18,8 +18,9 @@ header {
     }
 
     .text-align {
-        display: flex;
-        flex-direction: column;
+        @include flx-grd(flex, column);
+        // display: flex;
+        // flex-direction: column;
         align-items: center;
     }
 
